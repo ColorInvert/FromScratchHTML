@@ -1,0 +1,136 @@
+:root {
+    --purple: #B800FA;
+    --blue: #1A0BD9;
+    --sky: #0088F0;
+    --grey: #aaaaaa;
+    --green: #0DFC24;
+  }
+
+ul li {
+    list-style: none;
+}
+
+.tagline {
+    font-size:20px;
+    position: relative -10px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: #aaaaaa;
+    text-decoration: wavy;
+}
+
+.currpage{
+    border-style: inset;
+    background-color: var(--sky);
+    position: relative;
+    top: -10px; left: 10px;
+
+
+}
+.othrpage{
+    
+    background-color: var(--sky);
+    position: relative;
+    top: -10px; left: 10px;
+}
+
+header {
+    position: relative;
+    top: 0px; left: 0px;
+    border: 10px solid var(--grey);
+    background-color: var(--blue);
+    color:var(--sky);
+    padding-left: 0%;
+    padding-top: 0%;
+    font-size:70px;
+    font-weight:1000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    
+
+}
+
+h1{
+    background-color: #1A0BD9;
+    padding-left: 3%;
+    border: 4px solid var(--grey);
+    
+    color: #0088F0;
+}
+
+.calltoaction {
+    color: #1A0BD9;
+    padding-left: 1.5%;
+}
+
+h2{
+    background-color: #1A0BD9;
+    padding: 4px;
+    border: 5px solid var(--grey);
+    color: #0088F0;
+}
+
+
+body { background-color: var(--sky); }
+
+p {
+    font-size:18px;
+    font-weight: 600;
+    color: var(--sky);
+}
+
+
+section {
+    background-color: var(--blue);
+    border: 10px var(--grey);
+    border-style: solid;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
+
+button {
+    font-weight:1000;
+    font-size: medium;
+    background-color: var(--sky);
+    color: var(--blue);
+    border: 5px solid var(--grey);
+    border-style: outset;
+    padding: 8px;
+}
+button:hover {
+    border-style: inset;
+    background-color: var(--blue);
+    color: var(--sky);
+}
+  
+aside {
+    font-style: italic;
+    background-color: #0088F0;
+    color:var(--blue);
+    font-size: 25px;
+    border: 5px solid var(--grey);
+    text-align: center;
+}
+
+footer {
+    color: var(--sky);
+
+    padding:0px;
+}
+h3 {
+    color: var(--sky);
+    font-weight:100;
+    font-size: 25px;
+    border: 5px solid var(--grey);
+    
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.owned{
+    color: #1A0BD9;
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
