@@ -10,6 +10,7 @@ ul li {
     list-style: none;
 }
 
+
 .tagline {
     font-size:20px;
     position: relative -10px;
@@ -48,6 +49,12 @@ header {
     text-align: left;
     
 
+}
+
+.userinputs {
+    font-size:18px;
+    font-weight: 600;
+    color: var(--sky);
 }
 
 h1{
