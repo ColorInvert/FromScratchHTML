@@ -77,6 +77,22 @@ h2{
     color: #0088F0;
 }
 
+h3 {
+    color: var(--sky);
+    font-weight:100;
+    font-size: 25px;
+    border: 5px solid var(--grey);
+    
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h4 {
+    color: var(--green);
+    font-weight:100;
+    font-size: 22px;
+    text-align: center;
+}
 
 body { background-color: var(--sky); }
 
@@ -125,15 +141,7 @@ footer {
 
     padding:0px;
 }
-h3 {
-    color: var(--sky);
-    font-weight:100;
-    font-size: 25px;
-    border: 5px solid var(--grey);
-    
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 
 .owned{
     color: #1A0BD9;
